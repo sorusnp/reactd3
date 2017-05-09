@@ -1,0 +1,6 @@
+#WebStrome
+.idea
+
+#Node
+/node_modules
+*.log
