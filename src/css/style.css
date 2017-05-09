@@ -1,0 +1,54 @@
+.app-header{
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    color: blue;
+    padding: 18px;
+    text-decoration: underline;
+}
+
+.react-d3-tip {
+    position:absolute;
+    text-align: center;
+    width: 200px;
+    height:auto;
+    background-color: #EDE3D1;
+    border-radius: 10px;
+    color: #787777;
+    padding: 6px 0;
+    z-index:3;
+}
+
+.react-d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    width: 100%;
+    line-height: 1;
+    color: #EDE3D1;
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+    margin: -3px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+.event-circle{
+    stroke:#e6550d;
+}
+.focus{
+    pointer-events: all;
+}
+
+.bar {
+    fill: #1f77b4;
+    fill-opacity:0.7;
+}
+
+.bar:hover {
+    fill-opacity:0.9;
+}
+
+.axis--x path {
+    display: block;
+}
